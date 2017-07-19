@@ -1,0 +1,102 @@
+.container{
+
+	display: flex;
+	flex-flow: row wrap;
+
+
+}
+
+.left_icon {
+
+	display: flex;
+	justify-content: left;
+
+}
+
+.central_picture {
+
+  display: flex;
+  flex-flow: row wrap;
+  margin-left: 25%;
+  justify-content: center;
+  align-items: center;
+	
+
+
+}
+
+
+.body p {
+
+	background-color: lightblue;
+	text-align: justify;
+}
+
+.primary-toggle {
+
+    border: 1px solid #AAAAAA;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2), 0 1px 0 #FFFFFF inset;
+    color: #595959;
+    cursor: pointer;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 30px;
+    min-height: 30px;
+    min-width: 20px;
+    padding: 2px 10px;
+    position: absolute;
+    right: 15px;
+    text-shadow: 0 1px 0 #FFFFFF;
+    top: 15px;
+
+}
+
+a.primary-toggle span {
+
+    background: none repeat scroll 0 0 #595959;
+    border-radius: 2px 2px 2px 2px;
+    box-shadow: 0 1px 0 #FFFFFF;
+    display: block;
+    height: 3px;
+    margin: 5px 0;
+    width: 20px;
+
+}
+
+a.primary-toggle .primary-toggle-opened {
+
+    display: none;
+
+}
+
+a.primary-toggle:hover {
+
+    box-shadow: 0 0 0 transparent, 0 1px 0 #FFFFFF inset;
+
+}
+a.primary-toggle:active {
+
+    box-shadow: 0 0 0 transparent, 0 -1px 0 rgba(255, 255, 255, 0) inset;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+
+}
+
+a.primary-toggle:focus {
+
+    box-shadow: 0 0 3px rgba(125, 193, 68, 0.5);
+
+}
+
+a.primary-toggle:active span {
+
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+
+}
+
+.primary-nav-home {
+
+    display: block !important;
+
+}

@@ -1,0 +1,105 @@
+body{
+    padding:0;
+    margin:0;
+    text-align: center;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+}
+header {
+    background-color: red;
+
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+header h1 {
+    text-align: center;
+    color: purple;
+}
+
+nav ul {
+    
+    width: 100%;
+}
+
+nav h2 {
+    text-align: center;
+    color: yellow;    
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 0; 
+}
+
+li {
+    border: 1px solid  white;
+    padding: 10px;
+    
+}
+
+a.navlink {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.main-wrapper {
+    background-color: blueviolet;
+    
+    
+}
+
+aside h3 {
+    color: blue;
+}
+
+.aside-1 {
+    background-color: yellow;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    
+}
+
+.aside-2 {
+    background-color: pink;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    
+    
+}
+
+article.main {
+    
+    background-color: yellow;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    
+}
+
+p.col {
+    color: gold;
+    
+}
+
+footer {
+    background-color: green;
+    
+}
+
+footer h3 {
+    color: pink;
+}

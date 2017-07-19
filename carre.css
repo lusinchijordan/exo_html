@@ -1,0 +1,47 @@
+div {
+
+	border: 1px solid black;
+}
+
+.container {
+	position: absolute;
+	height: 50px;
+	widows: 50px;
+	border: none;
+}
+
+div.topleft{
+	position: absolute;
+	top:0;
+	left:0;
+	background: red;
+
+
+
+}
+
+div.topright{
+	position: absolute;
+	display: block;
+	background: yellow;
+	top:0;
+	right: 0;
+	
+	
+
+}
+
+div.bottomleft{
+	position: absolute;
+	background: blue;
+	left: 0;
+	bottom:0;
+
+}
+div.bottomright{
+	position: absolute;
+	background: purple;
+	right:0;
+	bottom:0;
+
+}

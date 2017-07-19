@@ -1,27 +1,8 @@
-.container{
-
-	display: flex;
-	flex-flow: row wrap;
-
-
-}
-
-.left_icon {
-
-	display: flex;
-	justify-content: left;
-
-}
 
 .central_picture {
 
-  display: flex;
-  flex-flow: row wrap;
-  margin-left: 25%;
-  justify-content: center;
-  align-items: center;
-	
-
+	margin:auto;
+	display: block;
 
 }
 
@@ -30,6 +11,12 @@
 
 	background-color: lightblue;
 	text-align: justify;
+}
+
+.thumbnail_article {
+
+	float:left;
+
 }
 
 .primary-toggle {
@@ -98,5 +85,13 @@ a.primary-toggle:active span {
 .primary-nav-home {
 
     display: block !important;
+
+}
+
+@media(min-width: 500px){
+
+	.body p {
+		break-after: always; 
+	}
 
 }
